@@ -1,1 +1,8 @@
-# example-rest-api
+# Example REST API
+
+## How to deploy
+
+```
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
