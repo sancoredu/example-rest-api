@@ -4,7 +4,7 @@ from fastapi import FastAPI
 
 app = FastAPI(
     title="Example API",
-    version="0.2.0",
+    version="0.2.1",
 )
 
 @app.get("/hello")
@@ -13,4 +13,4 @@ async def hello_world():
         "message": "Hello, world!",
         "timestamp": str(datetime.datetime.now(datetime.timezone.utc)),
         "version": app.version,
-        }
+    }
