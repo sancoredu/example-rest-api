@@ -4,7 +4,7 @@ from fastapi import FastAPI
 
 app = FastAPI(
     title="Example API",
-    version="0.2.1",
+    version="0.2.2",
 )
 
 @app.get("/hello")
